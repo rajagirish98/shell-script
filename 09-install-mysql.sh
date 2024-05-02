@@ -17,3 +17,13 @@ then
 else
     echo "installing MYSQL is success"
 fi
+
+yum install git -y
+
+if [ $? -ne 0]
+then
+    echo "ERROR:: installing GIT is fail"
+    exit 1
+else
+    echo "installing GIT is success"
+fi
