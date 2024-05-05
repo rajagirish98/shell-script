@@ -1,9 +1,7 @@
 #!/bin/bash
 
-NUMBER= ( NUMBER -gt 10000 )
-
-if
-    echo "Number is greater than $NUMBER"
+if [ $1 -gt 10000 ]
+    echo "$1 is greater than 100000"
 else
-    echo "Number is not greater than $NUMBER"
+    echo "$1 is not greater than 100000"
 fi
