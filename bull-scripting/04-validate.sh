@@ -3,7 +3,7 @@
 VALIDATE(){
     [ ID= -u ]
 if
-    echo ".... Failure $2 "
+    echo ".... Failure $2"
 else
     echo ".... Success $0"
 fi
