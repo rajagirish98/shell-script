@@ -2,7 +2,7 @@
 
 FRIUTS=$("Kiwi" "Apple" "Banana" "Apple")
 
-echo "First value {$FRIUT1 [$1]}"
+echo "First value ${FRIUT1 [$1]}"
 
 echo "Second value {$FRIUT2 [$2]}"
 
