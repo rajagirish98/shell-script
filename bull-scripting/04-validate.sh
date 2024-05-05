@@ -1,21 +1,28 @@
 #!/bin/bash
 
+ID=$(id -u)
+
 VALIDATE(){
-    [ ID= -u ]
-if
-    echo ".... Failure $2"
+
+if [ $1 -ne 0 ]
+
+then
+    echo "$2.... Failure"
 else
-    echo ".... Success $0"
+    echo "$2.... Success $"
 fi
 }
 
-if [ $0 -ne 2 ]
+
+if [ $ID -ne 0 ]
 then
     echo "failed to install not root user"
     exit 1
 else
-    echo "success installation"
+    echo "u r a root user"
 fi
 
-VALIDATE( $? )
 yum install mysql -y
+VALIDATE $? "installation of mysql"
+
+
