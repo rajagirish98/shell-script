@@ -1,11 +1,11 @@
 #!/bin/bash
 
-FRIUTS=("Kiwi" "Apple" "Banana" "Apple")
+FRIUTS=$("Kiwi" "Apple" "Banana" "Apple")
 
-echo "First value {$FRIUT1[$1]}"
+echo "First value {$FRIUT1 [$1]}"
 
-echo "Second value {$FRIUT2[$2]}"
+echo "Second value {$FRIUT2 [$2]}"
 
-echo "Third value {$FRIUT3[$3]}"
+echo "Third value {$FRIUT3 [$3]}"
 
-echo "Fourth value {$FRIUT4[$4]}"
+echo "Fourth value {$FRIUT4 [$4]}"
