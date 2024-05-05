@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FRUITS=["Kiwi" "Apple" "Banana" "Apple"]
+FRUITS=("Kiwi" "Apple" "Banana" "Grapes")
 
 echo "First value {$FRUITS [$1]}"
 
