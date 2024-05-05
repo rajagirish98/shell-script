@@ -1,8 +1,8 @@
 #!/bin/bash
 
-FRUITS=("Kiwi" "Apple" "Banana" "Grapes")
+FRUITS=( "Kiwi" "Apple" "Banana" "Grapes" )
 
-echo "First value {FRUITS [$1]}"
+echo "First value ${FRUITS [$1]}"
 
 echo "Second value {$FRUITS [$2]}"
 
