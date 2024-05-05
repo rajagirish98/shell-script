@@ -22,6 +22,6 @@ else
     echo "u r a root user"
 fi
 
-yum install myysql -y
+yum install mysql -y
 
 VALIDATE
