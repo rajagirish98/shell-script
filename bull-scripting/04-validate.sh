@@ -29,3 +29,7 @@ VALIDATE $? "installation of mysql"
 yum install git -y
 
 VALIDATE $? "installation of git"
+
+yum install mongod -y
+
+VALIDATE $? "installing mongod"
